@@ -1,7 +1,7 @@
 - id: pre-commit-django-migrations
   rev: 0.1.0
   name: Check django migrations
-  entry: pipenv run python manage.py makemigrations --check
+  entry: python manage.py makemigrations --check
   language: system
   types: [python]
   pass_filenames: false
